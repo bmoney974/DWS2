@@ -1,0 +1,100 @@
+body { /* element */
+	background:black;
+	}
+
+#content-wrapper{
+	width:960px;
+	margin:0px auto;
+	border:3px solid black;
+	border-radius:3px;
+	background:url("../images/background.jpg");
+	overflow:hidden;
+	}
+	
+#content-wrapper > h1 { /* Descendant*/
+	color:white;
+	text-align:center;
+	font-size:3.5em;
+	}	
+	
+h1+p { /* combinator*/
+	color:white;
+	width:500px;
+	margin:0px auto;
+	background:black;
+	padding:20px;
+	box-shadow: 6px 6px 2px #000000
+	}
+	
+#loud { /* ID */
+	font-size:20px;
+	padding-bottom:40px;
+	
+	}
+	
+iframe {
+	float:right;
+	margin-top:100px;
+	margin-right:70px;
+	box-shadow: 6px 6px 2px #000000
+	}
+	
+.button{ /* class */
+	float:right;
+	margin-top:-300px;
+	margin-right:109px;
+	
+	}
+	
+li{
+	display:inline;
+	padding:15px;
+	
+	}
+	
+#social-buttons{
+	margin-top:-180px;
+	margin-right:78px;
+	float:right;
+	
+	
+	}
+	
+#social-buttons > h3 {
+	color:white;
+	text-align:center;
+	line-height:30px;
+	font-family:georgia;
+	margin-left:50px;
+	
+}
+
+form{
+	color:white;
+	float:right;
+	
+	}
+	
+ul{
+	margin-left: 40px;
+	
+	}
+
+input:enabled { /* pseudo element */
+	background:red;
+	}
+
+p :first-child{ /* pseudo class */
+	color:yellow;
+	!important;
+	}	
+a[href$=".com"]:hover{ /* attribute */
+	background:blue;
+	}
+h1,h2 :not(first-type-of) { /* multiple */
+	font-family:arial;
+	}
+	
+[type="text"],[type="email"]{ /* universal */
+	box-shadow: 3px 3px 3px #000000;
+	}
